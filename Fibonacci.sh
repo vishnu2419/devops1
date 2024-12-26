@@ -5,7 +5,7 @@ a=0
 b=1
 echo $a
 echo $b
-for ((i=0; i<n; i+=1))
+for ((i=0; i<(n-2); i+=1))
 do
 c=$((a+b))
 echo $c
